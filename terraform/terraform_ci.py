@@ -31,7 +31,7 @@ def terraform_plan():
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: python terraform_ci.py <action>")
+        print("Usage: python3 terraform_ci.py <action>")
         sys.exit(1)
 
     action = sys.argv[1]
